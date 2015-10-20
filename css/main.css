@@ -82,7 +82,7 @@
 .form-control {
   height: 36px;
   padding: 6px 12px;
-  width: 96%;
+  width: 100%;
   margin: auto;
   font-size: 16px;
   line-height: 1.42857143;
@@ -123,6 +123,28 @@ fieldset[disabled] .form-control {
 
 .map{
   width: 100%;
-  height: 350px;
-  margin-top: 20px;
+  height: 320px;
+}
+
+footer{
+  padding: 50px 0px;
+}
+
+.soc-list{
+  margin: 0;
+  padding: 0;
+  list-style: outside none none;
+}
+  .soc-list li{
+    display: inline-block;
+  }
+  
+footer a .goto{
+  display: inline-block;
+  position: relative;
+  height: 30px;
+  width: 30px;
+  border-left: 2px solid #DDD;
+  border-top: 2px solid #DDD;
+  transform: rotate(45deg);
 }
