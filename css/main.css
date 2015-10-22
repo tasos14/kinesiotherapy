@@ -126,25 +126,75 @@ fieldset[disabled] .form-control {
   height: 320px;
 }
 
+/*Footer*/
+
 footer{
+  background: #222222;
   padding: 50px 0px;
+  line-height: 50px;
 }
 
-.soc-list{
-  margin: 0;
-  padding: 0;
-  list-style: outside none none;
+footer p.social{
+  text-align: left;
 }
-  .soc-list li{
-    display: inline-block;
-  }
-  
-footer a .goto{
+
+footer p.social a {
+  margin-left: 10px;
+  color: #fff;
   display: inline-block;
-  position: relative;
-  height: 30px;
-  width: 30px;
-  border-left: 2px solid #DDD;
-  border-top: 2px solid #DDD;
-  transform: rotate(45deg);
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  line-height: 50px;
+  font-size: 25px;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+footer p.social a.facebook {
+  background-color: #4460ae;
+}
+footer p.social a.youtube {
+  background-color: #c21f25;
+}
+footer p.social a.instagram {
+  background-color: #cd4378;
+}
+footer p.social a.linkedin {
+  background-color: #1F76B6;
+}
+@media (max-width: 767px) {
+  #footer p.social {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+footer p {
+  margin: 0;
+  text-align: right;
+  color: #eeeeee;
+}
+@media (max-width: 767px) {
+  footer p {
+    text-align: center;
+  }
+}
+footer p.sign {
+  margin-top: 20px;
+  text-align: center;
+  color: #999999;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+footer p.sign a {
+  color: #999999;
+}
+@media (max-width: 767px) {
+  footer p.sign {
+    text-align: center;
+  }
 }
