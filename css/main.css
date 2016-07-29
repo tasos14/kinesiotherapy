@@ -451,3 +451,12 @@ footer p.sign a {
     text-align: center;
   }
 }
+
+/* contact us*/
+#contact {
+  background-color: #515151;
+  background-image: url(../img/contact.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
